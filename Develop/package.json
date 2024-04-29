@@ -1,5 +1,16 @@
 {
+  "name": "develop",
+  "description": "Accept user inputs through prompts to generate a high quality ReadMe.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.20"
-  }
+}
 }
