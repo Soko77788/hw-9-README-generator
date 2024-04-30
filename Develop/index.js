@@ -46,9 +46,10 @@ const questions = [
         message: 'How do i test the app?'
     },
     {
-        type: 'input',
-        name: 'title',
-        message: 'What is the title of the project?'
+        type: 'list',
+        name: 'license',
+        message: 'Choose the license you used.',
+        choices: ['MIT', 'ISC', 'Apache-2.0', 'MPL 2.0', 'Boost', 'Unlicense', ]
     },
 ];
 
