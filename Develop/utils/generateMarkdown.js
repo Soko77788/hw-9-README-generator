@@ -15,25 +15,37 @@ export const generateMarkdown = ({title, description, installation, usage, contr
   return `# ${title}
 
   ## Description
-  ${description}
+  * ${description}
   
   ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
-  ${installation}
+  * ${installation}
   
   ## Usage
-  ${usage}
+  * ${usage}
   
   ## License
-  
+  * ${license}
+
   ## Contributing
-  ${contribution}
+  * ${contribution}
   
   ## Tests
-  ${tests}
+  * ${tests}
+
+  ## License
+  * ${renderLicenseSection(license)}
   
-  ## Questions`
+  ## Questions
+  * Here is a link to my [GitHub](https://github.com/${github}) profile.
+  * For further questions email me at [email](${email}).`
 };
 
 // module.exports = generateMarkdown;

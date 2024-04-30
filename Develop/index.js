@@ -36,16 +36,7 @@ const questions = [
     },
 ];
 
-inquirer.prompt (
-    questions
-)
-.then(answers => {
-    const markdownString = generateMarkdown(answers)
-    writeToFile(markdownString)
-})
-.catch (err => {
-    console.log(err)
-})
+
 
 
 // TODO: Create a function to write README file
@@ -57,7 +48,15 @@ inquirer.prompt (
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt (questions)
+.then(answers => {
+    const markdownString = generateMarkdown(answers)
+    writeToFile(markdownString)
+})
+.catch (err => {
+    console.log(err)
+})}
 
 // Function call to initialize app
 init();
