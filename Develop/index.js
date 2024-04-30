@@ -11,6 +11,17 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'github',
+        message: 'What is your github username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+        validate: (input) => input.toLowerCase().includes("@"),
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'What is your project about?'
     },
@@ -33,6 +44,11 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'How do i test the app?'
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of the project?'
     },
 ];
 
