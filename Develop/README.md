@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  * This project uses node js inquirer package to retrieve user inputs through prompt questions and uses them to generate a README markdown file to save time on your projects.
+  * Using the inquirer package for node js, the program prompts for questions and then uses those answers to generate a readme.md file for your project that saves the developer time
   
   ## Table of Contents
   * [Installation](#installation)
@@ -19,10 +19,10 @@
   * npm i
   
   ## Usage
-  * Access to a terminal on your computer. Either bash on windows or zsh on Mac. As well as others.
+  * A Mac or PC with a terminal. Common examples are Zsh for Mac and Bash for Windows
 
   ## Contributing
-  * Create a pull request on the repo.
+  * Create a pull request
   
   ## Tests
 
@@ -42,3 +42,20 @@ Click [here](https://opensource.org/licenses/MIT) for more details.
   ## Questions
   * Here is a link to my [GitHub](https://github.com/soko77788) profile.
   * For further questions email me at nicksoko@gmail.com.
+
+  ## Tools and 3rd party assistance
+  * Influenced with the class node.js day 3 mini project code along
+  * Screencastify
+  * Student AI tool and ChatGPT for badge information
+
+  ## Obstacles and Successes
+  * The biggest obstacle was finding the github license and badge information
+  * Importing information from one js file back to the main index.js file
+  * Using Screencastify for the first time and getting it uploaded on google drive
+
+  * This homework went smooth. With the mini project code along most aspects were easy to figure out.
+  * Screencastify was already installed so getting the recording down reading the docs was great. 
+
+  ## Video Demo Link
+
+  https://drive.google.com/file/d/17W2W_6d4mBEqOuXuJHqfADgDK7fJTDMe/view
