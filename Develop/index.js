@@ -28,12 +28,13 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'How do I install the project?'
+        message: 'How do I install the project?',
+        default: 'npm i'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do i use the app?'
+        message: 'What do I need to use the app?'
     },
     {
         type: 'input',
@@ -43,7 +44,8 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'How do i test the app?'
+        message: 'How do i test the app?',
+        default: 'npm test'
     },
     {
         type: 'list',

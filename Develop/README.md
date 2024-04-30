@@ -1,7 +1,8 @@
-# huh [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# hw-9-README-generator 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  * 2
+  * This project uses node js inquirer package to retrieve user inputs through prompt questions and uses them to generate a README markdown file to save time on your projects.
   
   ## Table of Contents
   * [Installation](#installation)
@@ -12,16 +13,22 @@
   * [Questions](#questions)
   
   ## Installation
-  * 2
+
+  To install necessary dependencies, run the following command:
+
+  * npm i
   
   ## Usage
-  * 2
+  * Access to a terminal on your computer. Either bash on windows or zsh on Mac. As well as others.
 
   ## Contributing
-  * 2
+  * Create a pull request on the repo.
   
   ## Tests
-  * 2
+
+  To run tests, run the following command:
+
+  * npm test
 
   ## License
    
@@ -33,5 +40,5 @@ Click [here](https://opensource.org/licenses/MIT) for more details.
 
   
   ## Questions
-  * Here is a link to my [GitHub](https://github.com/what) profile.
-  * For further questions email me at [email](@123).
+  * Here is a link to my [GitHub](https://github.com/soko77788) profile.
+  * For further questions email me at nicksoko@gmail.com.

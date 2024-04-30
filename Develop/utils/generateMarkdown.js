@@ -63,7 +63,8 @@ ${licenseBadge}
 
 // TODO: Create a function to generate markdown for README
 export const generateMarkdown = ({title, github, email, license, description, installation, usage, contribution, tests}) => {
-  return `# ${title} ${renderLicenseBadge(license)}
+  return `# ${title} 
+  ${renderLicenseBadge(license)}
 
   ## Description
   * ${description}
@@ -77,6 +78,9 @@ export const generateMarkdown = ({title, github, email, license, description, in
   * [Questions](#questions)
   
   ## Installation
+
+  To install necessary dependencies, run the following command:
+
   * ${installation}
   
   ## Usage
@@ -86,6 +90,9 @@ export const generateMarkdown = ({title, github, email, license, description, in
   * ${contribution}
   
   ## Tests
+
+  To run tests, run the following command:
+
   * ${tests}
 
   ## License
@@ -93,7 +100,7 @@ export const generateMarkdown = ({title, github, email, license, description, in
   
   ## Questions
   * Here is a link to my [GitHub](https://github.com/${github}) profile.
-  * For further questions email me at [email](${email}).`
+  * For further questions email me at ${email}.`
 };
 
 // module.exports = generateMarkdown;
